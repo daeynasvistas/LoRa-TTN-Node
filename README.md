@@ -8,10 +8,11 @@ Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna 
 
 ## Alterar em cada Node (Main.cpp)
  ```` C++
-static const PROGMEM u1_t NWKSKEY[16] = { 0x82, 0x60 };  //COLOCAR AQUI os secrets
-static const u1_t PROGMEM APPSKEY[16] = { 0x59, 0x76 }; //COLOCAR AQUI os secrets
-static const u4_t DEVADDR = 0x26011874; // <-- Change this address for every node!
+static const PROGMEM u1_t NWKSKEY[16] = { 0x82, 0x60 };  //COLOCAR AQUI "Network Session Key" (ver screenshot)
+static const u1_t PROGMEM APPSKEY[16] = { 0x59, 0x76 };  //COLOCAR AQUI "App Session Key"
+static const u4_t DEVADDR = 0x26011874;                  //COLOCAR AQUI "0xDevice Address"
  ````
+
 
 # Como instalar
 
