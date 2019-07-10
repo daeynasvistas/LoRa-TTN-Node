@@ -33,3 +33,6 @@ a840411bc834ffff  <- adicionar f até 19bit
 
 #### Obtemos Assim a chave da applicação (App ID)
 ![9](https://user-images.githubusercontent.com/2634610/60980508-84002000-a32c-11e9-8a67-de1345c74486.PNG)
+
+## 4. Registar um novo Node (na aplicação anteriormente criada)
+![10](https://user-images.githubusercontent.com/2634610/60980723-e3f6c680-a32c-11e9-96d6-f858a3a0b249.PNG)
