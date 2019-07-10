@@ -6,6 +6,13 @@
 
 Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna fácil enviar dados de sensores de nodes LoRaWAN conectados à rede Things. 
 
+## Alterar em cada Node (Main.cpp)
+'''
+static const PROGMEM u1_t NWKSKEY[16] = { 0x82, 0x60 };  //COLOCAR AQUI os secrets
+static const u1_t PROGMEM APPSKEY[16] = { 0x59, 0x76 }; //COLOCAR AQUI os secrets
+static const u4_t DEVADDR = 0x26011874; // <-- Change this address for every node!
+'''
+
 # Como instalar
 
 ## 1. Foi utilizado VisualStudio Code + PlatformIO (mas pode editar Main.cpp com Arduino IDE)
