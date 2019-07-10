@@ -8,7 +8,7 @@ Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna 
 
 Neste repositório encontra um step by step para registar um Node (Arduino UNO) na plataform TTN e a forma de enviar para esta os valores dos sensores: GPS, Humidade, Temperatura e luminosidade utilizando LoRa.
 
-Para visualizar os dados de forma gráfica, pode utilizar este repositório:
+Para visualizar os dados num mapa e na forma de um gráfico, pode utilizar este repositório:
 https://github.com/daeynasvistas/LoRa-TTN-map
 
 
