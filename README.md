@@ -12,6 +12,9 @@ Para visualizar os dados num mapa e na forma de um gráfico, pode utilizar este 
 https://github.com/daeynasvistas/LoRa-TTN-map
 
 
+![66425186_342349106659933_6656448965128486912_n](https://user-images.githubusercontent.com/2634610/60983592-1a831000-a332-11e9-8a30-94f3efa8b5b1.png)
+
+
 ## Alterar em cada Node (Main.cpp)
  ```` C++
 static const PROGMEM u1_t NWKSKEY[16] = { 0x82, 0x60 };  //COLOCAR AQUI "Network Session Key" (ver screenshot)
