@@ -36,3 +36,6 @@ a840411bc834ffff  <- adicionar f até 19bit
 
 ## 4. Registar um novo Node (na aplicação anteriormente criada)
 ![10](https://user-images.githubusercontent.com/2634610/60980723-e3f6c680-a32c-11e9-96d6-f858a3a0b249.PNG)
+
+### 4.1 Obtemos as chaves necessárias aqui
+![11](https://user-images.githubusercontent.com/2634610/60980966-61223b80-a32d-11e9-87c5-328d7a43f843.png)
