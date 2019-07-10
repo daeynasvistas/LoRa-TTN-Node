@@ -8,8 +8,8 @@ Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna 
 
 # Como instalar
 
-1. Foi utilizado VisualStudio Code + PlatformIO (mas pode editar Main.cpp com Arduino IDE)
-2. Configurar Gateway Dragino:
+## 1. Foi utilizado VisualStudio Code + PlatformIO (mas pode editar Main.cpp com Arduino IDE)
+## 2. Configurar Gateway Dragino:
 
 ![2](https://user-images.githubusercontent.com/2634610/60979177-28349780-a32a-11e9-8a4e-4e61da2ec065.PNG)
 ![3](https://user-images.githubusercontent.com/2634610/60979176-28349780-a32a-11e9-8e82-f1761ff73820.PNG)
@@ -19,9 +19,17 @@ Utilizar MAC do Gateway com ID:
 a840411bc834ffff  <- adicionar f até 19bit
 '''
 
-3. Na Consola TTN
-3.1 Registar uma nova GATEWAY
+## 3. Na Consola TTN
+### 3.1 Registar uma nova GATEWAY
 
 ![4](https://user-images.githubusercontent.com/2634610/60979935-7302df00-a32b-11e9-8283-677316e516a7.png)
 ![5](https://user-images.githubusercontent.com/2634610/60980019-9b8ad900-a32b-11e9-85bd-c030760e7c3f.PNG)
 ![6](https://user-images.githubusercontent.com/2634610/60980101-c2490f80-a32b-11e9-9398-1541cc9e1632.PNG)
+
+### 3.2 Adicionar uma nova aplicação
+
+![7](https://user-images.githubusercontent.com/2634610/60980247-05a37e00-a32c-11e9-9ac9-ce3cfaa22ae8.PNG)
+![8](https://user-images.githubusercontent.com/2634610/60980437-6337ca80-a32c-11e9-9ac8-792edc661a5c.PNG)
+
+#### Obtemos Assim a chave da applicação (App ID)
+![9](https://user-images.githubusercontent.com/2634610/60980508-84002000-a32c-11e9-8a67-de1345c74486.PNG)
