@@ -129,3 +129,7 @@ function Decoder(bytes, port) {
   };
 }
   ````
+
+
+## Resultado
+![13](https://user-images.githubusercontent.com/2634610/60984549-cd07a280-a333-11e9-8139-bb6517efa461.PNG)
