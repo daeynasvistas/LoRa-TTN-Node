@@ -16,9 +16,9 @@ static const u4_t DEVADDR = 0x26011874;                  //COLOCAR AQUI "0xDevic
 
 # Como instalar
 
-## 1. Foi utilizado VisualStudio Code + PlatformIO
- (mas pode editar Main.cpp com Arduino IDE)
-### 1.1 Clonar repositório 
+## 1. Clonar repositório 
+(Foi utilizado VisualStudio Code + PlatformIO, mas pode editar Main.cpp com Arduino IDE)
+
  ````
  $ git clone https://github.com/daeynasvistas/LoRa-TTN-Node
  ````
