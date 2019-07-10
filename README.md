@@ -10,7 +10,7 @@ Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna 
 
 1. Foi utilizado VisualStudio Code + PlatformIO (mas pode editar Main.cpp com Arduino IDE)
 2. Configurar Gateway Dragino:
-![2](https://user-images.githubusercontent.com/2634610/60978963-d12ec280-a329-11e9-894b-391b40d97100.PNG)
-![3](https://user-images.githubusercontent.com/2634610/60978967-d25fef80-a329-11e9-911c-60590334b50f.PNG)
 
+![2](https://user-images.githubusercontent.com/2634610/60979177-28349780-a32a-11e9-8a4e-4e61da2ec065.PNG)
+![3](https://user-images.githubusercontent.com/2634610/60979176-28349780-a32a-11e9-8e82-f1761ff73820.PNG)
 
