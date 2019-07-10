@@ -62,3 +62,47 @@ a840411bc834ffff  <- adicionar f até 19bit
 
 ### 4.1 Obtemos as chaves necessárias aqui
 ![11](https://user-images.githubusercontent.com/2634610/60980966-61223b80-a32d-11e9-87c5-328d7a43f843.png)
+
+## 5. Foi utilizado um Payload "custom"
+![12](https://user-images.githubusercontent.com/2634610/60981751-d2162300-a32e-11e9-9ac4-ad43772cf6a8.PNG)
+
+### 5.1 Payload Custom
+
+  ````JS
+function Bytes2Float32(bytes) {
+    var sign = (bytes & 0x80000000) ? -1 : 1;
+    var exponent = ((bytes >> 23) & 0xFF) - 127;
+    var significand = (bytes & ~(-1 << 23));
+
+    if (exponent == 128) 
+        return sign * ((significand) ? Number.NaN : Number.POSITIVE_INFINITY);
+
+    if (exponent == -127) {
+        if (significand == 0) return sign * 0.0;
+        exponent = -126;
+        significand /= (1 << 22);
+    } else significand = (significand | (1 << 23)) / (1 << 23);
+
+    return sign * significand * Math.pow(2, exponent);
+}
+
+// Test using 0xFF1641 for -23.4 and 65%, or 0x00EA41 for +23.4 and 65%
+function Decoder(bytes, port) {
+	var lat = bytes[3] << 24 | bytes[2] << 16 | bytes[1] << 8 | bytes[0];
+  var lon = bytes[7] << 24 | bytes[6] << 16 | bytes[5] << 8 | bytes[4];
+	
+  var lux =  bytes[8] << 8 | bytes[9];
+
+  var temp = bytes[10] << 24 >>16 | bytes[11];
+  var hum = bytes[12] << 8 | bytes[13];
+  
+
+  return {
+    latitude:  Bytes2Float32(lat),
+		longitude: Bytes2Float32(lon),
+    Temperatura: (temp/100),
+    Humidade: (hum/100),
+    Luminosidade: (lux),		
+  };
+}
+  ````
