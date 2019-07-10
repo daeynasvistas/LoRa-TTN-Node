@@ -6,6 +6,10 @@
 
 Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna fácil enviar dados de sensores de nodes LoRaWAN conectados à rede Things. 
 
+Neste repositório encontra um step by step para registar um Node (Arduino UNO) na plataform TTN e a forma de enviar para esta os valores dos sensores: GPS, Humidade, Temperatura e luminosidade.
+
+
+
 ## Alterar em cada Node (Main.cpp)
  ```` C++
 static const PROGMEM u1_t NWKSKEY[16] = { 0x82, 0x60 };  //COLOCAR AQUI "Network Session Key" (ver screenshot)
