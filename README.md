@@ -86,7 +86,7 @@ a840411bc834ffff  <- adicionar f até 19bit
 ### 4.1 Obtemos as chaves necessárias aqui
 ![11](https://user-images.githubusercontent.com/2634610/60980966-61223b80-a32d-11e9-87c5-328d7a43f843.png)
 
-## 5. Foi utilizado um Payload "custom"
+## 5. Foi implementado um Payload "custom"
 ![12](https://user-images.githubusercontent.com/2634610/60981751-d2162300-a32e-11e9-9ac4-ad43772cf6a8.PNG)
 
 ### 5.1 Payload Custom
