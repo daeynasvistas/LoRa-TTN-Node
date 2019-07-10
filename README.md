@@ -16,7 +16,13 @@ static const u4_t DEVADDR = 0x26011874;                  //COLOCAR AQUI "0xDevic
 
 # Como instalar
 
-## 1. Foi utilizado VisualStudio Code + PlatformIO (mas pode editar Main.cpp com Arduino IDE)
+## 1. Foi utilizado VisualStudio Code + PlatformIO
+ (mas pode editar Main.cpp com Arduino IDE)
+### 1.1 Clonar repositório 
+ ````
+ $ git clone https://github.com/daeynasvistas/LoRa-TTN-Node
+ ````
+ 
 ## 2. Configurar Gateway Dragino:
 
 ![2](https://user-images.githubusercontent.com/2634610/60979177-28349780-a32a-11e9-8a4e-4e61da2ec065.PNG)
