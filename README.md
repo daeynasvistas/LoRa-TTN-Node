@@ -9,7 +9,6 @@ Os dados ficam muito mais bonitos quando os pode visualizar. Este projeto torna 
 Neste repositório encontra um step by step para registar um Node (Arduino UNO) na plataform TTN e a forma de enviar para esta os valores dos sensores: GPS, Humidade, Temperatura e luminosidade.
 
 
-
 ## Alterar em cada Node (Main.cpp)
  ```` C++
 static const PROGMEM u1_t NWKSKEY[16] = { 0x82, 0x60 };  //COLOCAR AQUI "Network Session Key" (ver screenshot)
@@ -17,6 +16,20 @@ static const u1_t PROGMEM APPSKEY[16] = { 0x59, 0x76 };  //COLOCAR AQUI "App Ses
 static const u4_t DEVADDR = 0x26011874;                  //COLOCAR AQUI "0xDevice Address"
  ````
 
+## Alterar em cada Node (Main.cpp)
+indicar de form implisita a freq. que configurou no dragino, neste caso "868300000"
+ ````C++
+    #if defined(CFG_eu868)
+    //LMIC_setupChannel(0, 868100000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    LMIC_setupChannel(1, 868300000, DR_RANGE_MAP(DR_SF12, DR_SF7B), BAND_CENTI);      // g-band
+    //LMIC_setupChannel(2, 868500000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    //LMIC_setupChannel(3, 867100000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    //LMIC_setupChannel(4, 867300000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    //LMIC_setupChannel(5, 867500000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    //LMIC_setupChannel(6, 867700000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    //LMIC_setupChannel(7, 867900000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
+    //LMIC_setupChannel(8, 868800000, DR_RANGE_MAP(DR_FSK,  DR_FSK),  BAND_MILLI);      // g2-band
+ ````
 
 # Como instalar
 
