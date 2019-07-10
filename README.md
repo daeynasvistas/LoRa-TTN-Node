@@ -17,7 +17,7 @@ static const u4_t DEVADDR = 0x26011874;                  //COLOCAR AQUI "0xDevic
  ````
 
 ## Alterar em cada Node (Main.cpp)
-indicar de form implisita a freq. que configurou no dragino, neste caso "868300000"
+indicar de forma implícita a freq. que configurou no dragino, neste caso "868300000"
  ````C++
     #if defined(CFG_eu868)
     //LMIC_setupChannel(0, 868100000, DR_RANGE_MAP(DR_SF12, DR_SF7),  BAND_CENTI);      // g-band
