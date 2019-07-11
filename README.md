@@ -63,7 +63,7 @@ indicar de forma implícita a freq. que configurou no dragino, neste caso "86830
 
 Utilizar MAC do Gateway com ID:
 '''
-a840411bc834ffff  <- adicionar f até 19bit
+a840411bc834ffff  <- adicionar f até 16bit
 '''
 
 ## 3. Na Consola TTN
